@@ -42,7 +42,7 @@ body {
     justify-content: space-around; /* vertical */
     flex-direction: column;
     width: 50%;
-    min-height: 34rem;
+    min-height: 40rem;
 }
 
 .group {
@@ -57,7 +57,7 @@ body {
 }
 
 .group:nth-child(1) {
-    min-height: 19rem;
+    min-height: 25rem;
 }
 
 .instagram-logo {
@@ -76,11 +76,25 @@ body {
     height: 6rem;
 }
 
+.input-login-senha {
+    width: 20rem;
+    height: 3rem;
+    background: #eeeeee;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+}
+
 .instagram-login {
+    width: 20rem;
+    text-align: center;
     background-color: #0095f6;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
+}
+
+.ou {
+    margin: 1rem 0;
 }
 
 .instagram-logout {
